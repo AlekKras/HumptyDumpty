@@ -46,6 +46,12 @@ You will need Docker installed.
 
 Do the following:
 
+`docker pull alekkras/humpty_dumpty`
+
+And then run:
+
+`docker run -it humpty_dumpty bash`
+
 
 ### Shell Script
 
@@ -74,6 +80,43 @@ Then type `vagrant up && vagrant ssh` and you are good to go.
 
 
 ## Running the program
+
+``` console
+whoami@whoami: ~/Desktop/Humpty_Dumpty$ sudo bash humptydumpty.sh
+[sudo] password for whoami: 
+Would you like to start? (y/n)
+
+ > > >     y
+
+Welcome to the Humpty Dumpty!
+
+
+                   ,"   "-.
+                  / _ \/_  `.
+                 ; `''O`''   \
+           - --- | ___...---  :.____ _
+                 :         _."|~~~~~':'
+                 .\""--..-"_.";
+                  ,-._-..-"  / ,-.
+    =====;=======:_;_"-...".`.:_;====;========
+    -----|--------(_)--|-----`.(_)----|--------
+    ----.'----------,--'----.---------',---,---
+        |           |       |          |   |
+    ____|___________|_______|__________|___|___
+     |         | |     |          |      |    |
+     |           |     |          |      |    |
+    ,---,--------'--,--'.-----,---'----,-'----'
+    |   |           |   |     |        |
+    |___|_____._____|___|_____|________|_______
+              |          |       |       |   |
+              |          |       |       |   |
+    --'--,----.------,---'----,--'.-'`---'-,-'-
+        |            |        |   |        |
+    ____|____________|________|___|________|___
+Let's find the target!!!
+What is your target?
+
+```
 
 ## Contibuting
 
