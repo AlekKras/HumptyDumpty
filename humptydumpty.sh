@@ -158,7 +158,7 @@ main()
 			exit
 		fi
 	elif [[ $start == "N" || $start == "n" ]]; then
-		cowsay -f ghostbusters Bye, you will never find joy in firewall intrusion
+		cowsay -f ghostbusters Bye, you will never find joy in firewall intrusion || echo "${red}Bye, you will never find a real joy in firewall intrusion${end}"
 	else
 		exit
 fi
