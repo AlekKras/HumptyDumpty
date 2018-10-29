@@ -1,3 +1,4 @@
 # Don't track content of this folder
 *.txt
 basic_scan/*.txt
+hping3/txt/*
